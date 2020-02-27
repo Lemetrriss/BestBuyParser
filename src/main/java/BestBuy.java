@@ -33,22 +33,6 @@ public class BestBuy {
 //            items.add(ph.parseProduct(driver, product));
 //        }
 
-
-//        int number = (int)(Integer.parseInt(new WebDriverWait(driver, 4)
-//                .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("div.banner-middle-column > span.item-count")))
-//                .getText().split(" ")[0])*0.8);
-//        WebElement element = new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("li.sku-item:nth-child("+(number-3)+")")));
-//
-//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-
-//        List<WebElement> until = (new WebDriverWait(driver, 20))
-//                .until(ExpectedConditions.numberOfElementsToBeMoreThan(By.cssSelector("div.sku-title > h4.sku-header > a"), number));
-//        List<WebElement> until = driver.findElements(By.cssSelector("div.sku-title > h4.sku-header > a"));
-//
-//        for (WebElement webElement : until) {
-//            System.out.println(webElement.getAttribute("href"));
-//        }
-
         driver.quit();
     }
 
